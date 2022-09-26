@@ -1,0 +1,165 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Encontra el mejor estudio de arquitectura en la ciudad de Rosario |  Riobamba 220 bis | Telefono: 341 4821234">
+    <title>ESTUDIO ARKITECTURA | CONTACTO</title>
+</head>
+
+<!--TIPOGRAFIA-->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Quicksand&display=swap" rel="stylesheet">
+
+<!--ICONS BOOTSTRAP-->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+<!--BOOTSTRAP-->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+
+<!--CSS MAIN-->
+
+<link rel="stylesheet" href="/scr/css/style.css">
+
+<body>
+
+    <header>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg bg-success navbar-dark">
+            <div class="container-fluid">
+              <i class="bi bi-house-heart-fill"></i>
+              <i class="bi bi-house-door"></i>
+              <i class="bi bi-house"></i>
+              <i class="bi bi-house-door-fill"></i>
+              <i class="bi bi-house-fill"></i>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto me-5">
+                  <a class="nav-link" aria-current="page" href="/index.html">INICIO</a>
+                  <a class="nav-link" href="./nosotros.html">NOSOTROS</a>
+                  <a class="nav-link" href="./proyecto.html">PROYECTOS</a>
+                  <a class="nav-link" href="./contacto.html">CONTACTO</a>
+                  <a class="nav-link" href="./ubicacion.html">UBICACION</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+    </header>
+
+    <!--FORMULARIO DE CONTACTO-->
+    <main class="fondoformulario">
+      <div style="background-color: beige ;">
+        <section class="container">
+          <h2 class="text-center text-success p-1">Formulario de contacto</h2>
+            <div class="row">              
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-6">
+                      <label for="validationCustom01" class="form-label text-success">Nombre</label>
+                      <input type="text" class="form-control border-success rounded-pill" id="validationCustom01" placeholder="Ingrese su nombre">
+                      <div class="valid-feedback">
+                        Correcto!
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <label for="validationCustom02" class="form-label text-success">Apellido</label>
+                      <input type="text" class="form-control border-success rounded-pill" id="validationCustom02" placeholder="Ingrese su apellido">
+                      <div class="valid-feedback">
+                        Correcto!
+                      </div>
+                    </div>
+                  
+
+                    <div class="col-md-6">
+                        <label for="exampleFormControlInput1" class="form-label text-success">Email</label>
+                        <input type="email" class="form-control border-success rounded-pill" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+                      </div>
+
+                    
+                    <div class="col-md-6 col-lg-6">
+                      <label for="validationCustom04" class="form-label text-success">Provincia</label>
+                      <select class="form-select border-success rounded-pill" id="validationCustom04" required>
+                        <option selected disabled value="">Seleccionar...</option>
+                        <option>...</option>
+                      </select>
+                      <div class="invalid-feedback">
+                        Por favor seleccione una provincia valida.
+                      </div>
+                    </div>
+                    <div class="col-md-8 col-lg-8">
+                        <label for="validationCustom04" class="form-label text-success">Ciudad</label>
+                        <select class="form-select border-success rounded-pill" id="validationCustom04" required>
+                          <option selected disabled value="">Seleccionar...</option>
+                          <option>...</option>
+                        </select>
+                        <div class="invalid-feedback">
+                          Por favor seleccione una ciudad valida.
+                        </div>
+                      </div>
+                    <div class="col-md-4 col-lg-4">
+                      <label for="validationCustom05" class="form-label text-success">Codigo Postal</label>
+                      <input type="text" class="form-control border-success rounded-pill" id="validationCustom05" required>
+                      <div class="invalid-feedback">
+                        Por favor seleccione un codigo postal valido.
+                      </div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label text-success">Dejenos su consulta</label>
+                        <textarea class="form-control border-success" id="exampleFormControlTextarea1" rows="3"></textarea>
+                      </div>
+                    
+                    <div class="col-12">
+                      <button class="btn bg-success text-dark rounded-pill" type="submit">Enviar</button>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input border-success" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Deseo recibir novedades
+                        </label>
+                        <div class="invalid-feedback"></div>
+                          Debe estar de acuerdo antes de enviar.
+                      </div>                        
+                    </div>
+                  </div>                    
+                </form>
+            </div>
+          </section>
+        </div>  
+      </div>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="icono">
+      <nav class="navbar bg-success ">
+        <div class="container">
+        <h4 class="col-sm-12 col-lg-auto">Seguinos en redes</h4>
+        <a class="navbar-brand" href="https://es-la.facebook.com/">
+          <img src="/scr/img/facebook.svg" alt="Facebook" width="30" height="24">
+        </a>
+        <a class="navbar-brand" href="https://discord.com/">
+          <img src="/scr/img/discord.svg " alt="Facebook" width="30" height="24">
+        </a>
+        <a class="navbar-brand" href="https://twitter.com/?lang=es">
+          <img src="/scr/img/twitter.svg" alt="Facebook" width="30" height="24">
+        </a>
+        <a class="navbar-brand" href="https://web.telegram.org/z/">
+          <img src="/scr/img/telegram.svg" alt="Facebook" width="30" height="24">
+        </a>
+        <a class="navbar-brand" href="https://www.twitch.tv/">
+          <img src="/scr/img/twitch.svg" alt="Facebook" width="30" height="24">
+        </a>
+        <a class="navbar-brand" href="https://www.instagram.com/">
+          <img src="/scr/img/instagram.svg" alt="Facebook" width="30" height="24">
+        </a>
+        
+        </div>
+      </nav>
+    </footer>
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>   
+</body>
+</html>

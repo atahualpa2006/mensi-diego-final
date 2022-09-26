@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+  text-shadow: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.alto {
+  height: 70vh;
+}
+
+.bi {
+  color: beige;
+}
+
+.icono {
+  color: black;
+}
+.icono a:hover {
+  transform: translate(-3px) scale(1.2);
+}
+
+.fondoformulario {
+  background-color: beige;
+  color: green;
+}
+
+/*# sourceMappingURL=styles.css.map */
