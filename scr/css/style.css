@@ -2,7 +2,8 @@
     height: 70vh;
 }
 
-.icono a:hover{
+footer a:hover{
     transform: translate(-3px) scale(1.2);
+    color: antiquewhite;
     
 } 
